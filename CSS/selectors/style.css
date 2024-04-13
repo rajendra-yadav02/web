@@ -1,0 +1,37 @@
+/*element selector*/
+div{
+    background-color: aqua;
+    color: rgb(196, 161, 161);
+}
+
+/*class selector*/
+.red
+{
+    color: black;
+}
+
+/* id selector*/
+#green
+{
+    background-color: rgb(57, 160, 57);
+}
+
+/* child selector*/
+div > p{
+    color: black;
+    background-color: rgb(161, 124, 196);
+}
+
+/* decendent selector*/
+div p{
+    color: aqua;
+}
+
+/* universal selector*/
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+/* psudo selector */
